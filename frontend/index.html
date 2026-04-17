@@ -1,12 +1,270 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prodesk IT</title>
-  </head>
-  <body>
-    <div id="app">Hello</div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prodesk IT — Digital Marketing Agency</title>
+  <meta name="description" content="Prodesk IT helps ambitious brands grow through data-driven digital marketing." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/styles/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<!-- ─── default desktop menu ─── -->
+<nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">Prodesk <span>IT</span></a>
+
+      <div class="nav-links">
+        <a href="#about"    class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#contact"  class="nav-link">Contact</a>
+      </div>
+
+      <div class="nav-controls">
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
+        <a href="#contact" class="btn btn-primary nav-cta-d" style="padding:.5rem 1rem;font-size:.85rem;">Get Started</a>
+        <button class="menu-btn"  id="menuBtn"  aria-label="Toggle menu" aria-expanded="false">☰</button>
+      </div>
+  </div>
+</nav>
+
+<!-- mobile menu -->
+<div class="mob-menu" id="mobMenu">
+  <a href="#about"    class="nav-link">About</a>
+  <a href="#services" class="nav-link">Services</a>
+  <a href="#contact"  class="nav-link">Contact</a>
+  <a href="#contact"  class="btn btn-primary mob-cta">Get Started →</a>
+</div>
+
+<!-- ─── hero section ─── -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-content">
+      <h1>
+        We turn ideas into <br>
+        <span class="accent">Brands that
+          <span class="hero-rotate"><span id="rword">Dominate Markets.</span></span>
+        </span>
+      </h1>
+      <p class="hero-desc">
+        Whether you're starting from scratch or scaling fast, we build digital systems that drive real business results.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact"  class="btn btn-primary">Start Growing →</a>
+        <a href="#services" class="btn btn-ghost">See Services</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── stats section ─── -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="stats-grid">
+      <div><div class="stat-val">150+</div><div class="stat-lbl">Clients Served</div></div>
+      <div><div class="stat-val">4.8x</div><div class="stat-lbl">Avg. ROAS</div></div>
+      <div><div class="stat-val">98%</div><div class="stat-lbl">Retention Rate</div></div>
+      <div><div class="stat-val">12+</div><div class="stat-lbl">Years Experience</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── about us section  ─── -->
+<section class="about-intro" id="about">
+  <div class="container">
+    <div class="about-intro-content">
+      <div class="about-intro-main">
+        <div class="about-intro-label about-dev">DEVELOPMENT</div>
+        <h2 class="about-intro-heading">PRODESK</h2>
+        <div class="about-intro-label about-seo">SEO</div>
+        <div class="about-intro-label about-marketing">MARKETING</div>
+        <div class="about-intro-label about-ads">ADDS</div>
+      </div>
+      <p class="about-intro-tagline">We're Not Just an Agency. We're Your <span class="about-growth">Growth Partner.</span></p>
+      <a href="#contact" class="about-intro-cta">Work with us →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── marquee ─── -->
+<div class="marquee marquee-reverse">
+  <div class="marquee-track">
+    <span class="marquee-item"> 
+      Digital excellence starts here 
+      <i class="fa-regular fa-square" style="color: rgb(255, 255, 255);"></i>
+      Launch Your Success  
+      <i class="fa-regular fa-square" style="color: rgb(255, 255, 255);"></i>
+      Scale With Confidence 
+      <i class="fa-regular fa-square" style="color: rgb(255, 255, 255);"></i>
+    </span>
+
+    <span class="marquee-item"> 
+      Digital excellence starts here 
+      <i class="fa-regular fa-square" style="color: rgb(255, 255, 255);"></i>
+      Launch Your Success  
+      <i class="fa-regular fa-square" style="color: rgb(255, 255, 255);"></i>
+      Scale With Confidence 
+      <i class="fa-regular fa-square" style="color: rgb(255, 255, 255);"></i>
+    </span>
+
+    <span class="marquee-item"> 
+      Digital excellence starts here 
+      <i class="fa-regular fa-square" style="color: rgb(255, 255, 255);"></i>
+      Launch Your Success  
+      <i class="fa-regular fa-square" style="color: rgb(255, 255, 255);"></i>
+      Scale With Confidence 
+      <i class="fa-regular fa-square" style="color: rgb(255, 255, 255);"></i>
+    </span>
+  </div>
+</div>
+
+<!-- ─── services section ─── -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="sec-head">
+      <span class="label">What We Do</span>
+      <h2>Full-Stack Digital Marketing</h2>
+      <p>From search to social, content to conversions — we cover every channel that matters.</p>
+    </div>
+    <div class="services-grid" id="servicesGrid"></div>
+  </div>
+</section>
+
+<!-- ─── marquee ─── -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span class="marquee-item">
+      Grow Your Brand
+      <i class="fa-regular fa-circle" style="color: rgb(255, 255, 255);"></i>
+      Data-Driven Strategies
+      <i class="fa-regular fa-circle" style="color: rgb(255, 255, 255);"></i>
+      Creative Solutions
+      <i class="fa-regular fa-circle" style="color: rgb(255, 255, 255);"></i>
+      Proven Results
+      <i class="fa-regular fa-circle" style="color: rgb(255, 255, 255);"></i>
+    </span>
+
+    <span class="marquee-item">
+      Grow Your Brand
+      <i class="fa-regular fa-circle" style="color: rgb(255, 255, 255);"></i>
+      Data-Driven Strategies
+      <i class="fa-regular fa-circle" style="color: rgb(255, 255, 255);"></i>
+      Creative Solutions
+      <i class="fa-regular fa-circle" style="color: rgb(255, 255, 255);"></i>
+      Proven Results
+      <i class="fa-regular fa-circle" style="color: rgb(255, 255, 255);"></i>
+    </span>
+
+    <span class="marquee-item">
+      Grow Your Brand
+      <i class="fa-regular fa-circle" style="color: rgb(255, 255, 255);"></i>
+      Data-Driven Strategies
+      <i class="fa-regular fa-circle" style="color: rgb(255, 255, 255);"></i>
+      Creative Solutions
+      <i class="fa-regular fa-circle" style="color: rgb(255, 255, 255);"></i>
+      Proven Results 
+      <i class="fa-regular fa-circle" style="color: rgb(255, 255, 255);"></i>
+    </span>
+  </div>
+</div>
+
+<!-- ─── contact us section ─── -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info ">
+        <span class="label">Get in Touch</span>
+        <h2>Let's Build Something Great Together</h2>
+        <p>Drop us a message and a strategist will reply within one business day.</p>
+        <div class="c-items">
+          <div class="c-item">
+            <i class="fa-solid fa-at" style="color: rgb(116, 192, 252);"></i>
+            hello@prodeskIT.com</div>
+          <div class="c-item">
+            <i class="fa-solid fa-phone" style="color: rgb(116, 192, 252);"></i>
+            +91 98765 43210</div>
+          <div class="c-item">
+            <i class="fa-solid fa-location-arrow" style="color: rgb(116, 192, 252);"></i>
+            4th Floor, Cyber Tower, Noida, UP</div>
+        </div>
+      </div>
+      <form class="cform " id="cform" novalidate>
+        <div class="form-row">
+          <div class="form-grp">
+            <label for="fn">Full Name</label>
+            <input type="text" id="fn" placeholder="Aarav Mehta" required />
+          </div>
+          <div class="form-grp">
+            <label for="fe">Email</label>
+            <input type="email" id="fe" placeholder="hello@yourco.com" required />
+          </div>
+        </div>
+        <div class="form-grp">
+          <label for="fs">Service Interested In</label>
+          <select id="fs" required>
+            <option value="">Select a service…</option>
+            <option>Web Design &amp; Development</option>
+            <option>SEO &amp; Content Marketing</option>
+            <option>Digital Marketing</option>
+          </select>
+        </div>
+        <div class="form-grp">
+          <label for="fm">Message</label>
+          <textarea id="fm" placeholder="Tell us about your brand and goals…" required></textarea>
+        </div>
+        <div class="form-submit">
+          <button type="submit" class="btn btn-primary">Send Message →</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ─── footer section ─── -->
+<footer>
+  <div class="container">
+    <div class="foot-inner">
+      <div class="foot-logo">Prodesk <span>IT</span></div>
+
+      <p class="foot-copy">&copy; 2026 Prodesk IT. &nbsp;&nbsp; All rights reserved.</p>
+
+      <!-- Social Icons -->
+      <div class="footer-social-icons">
+        <a href="#" target="_blank" aria-label="Facebook">
+          <i class="fa-brands fa-instagram" style="color: rgb(255, 255, 255);"></i>
+        </a>
+
+        <a href="#" target="_blank" aria-label="Twitter">
+          <i class="fa-brands fa-facebook-f" style="color: rgb(255, 255, 255);"></i>
+        </a>
+
+        <a href="#" target="_blank" aria-label="LinkedIn">
+          <i class="fa-brands fa-x-twitter" style="color: rgb(255, 255, 255);"></i>
+        </a>
+
+        <a href="#" target="_blank" aria-label="Instagram">
+          <i class="fa-brands fa-linkedin-in" style="color: rgb(255, 255, 255);"></i>
+        </a>
+
+        <a href="#" target="_blank" aria-label="Instagram">
+          <i class="fa-brands fa-github" style="color: rgb(255, 255, 255);"></i>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<!-- toast -->
+<div class="toast" id="toast">Message sent! We'll reply within 24 hrs.</div>
+
+<script type="module" src="./src/main.js"></script>
+
+</body>
 </html>
